@@ -23,8 +23,7 @@ public class FileWrite {
 				System.out.println("Overwrite option selected");
 				System.out.println("File name is " + file.getName());
 
-				Rstatfile = new FileWriter(file, false); // overwrites
-															// file
+				Rstatfile = new FileWriter(file, false); // overwrites file
 				errestat = new PrintWriter(Rstatfile);
 
 			} else if (!file.exists()) {
@@ -32,8 +31,7 @@ public class FileWrite {
 				System.out.println("Overwrite option not selected");
 				System.out.println("File name is " + file.getName());
 
-				Rstatfile = new FileWriter(file, true); // no overwrites
-														// file
+				Rstatfile = new FileWriter(file, true); // no overwrites file
 				errestat = new PrintWriter(Rstatfile);
 
 			} else {
@@ -48,12 +46,12 @@ public class FileWrite {
 		} catch (IOException e) {
 
 			File file = new File(path);
-			
+
 			System.err.println("Path\n" + file.getAbsolutePath());
 			// Catch exception if any
 			System.err.println("Error: " + e.getMessage());
 			throw new RuntimeException(e);
-			
+
 		}
 
 	}
