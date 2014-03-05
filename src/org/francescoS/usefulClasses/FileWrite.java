@@ -16,10 +16,11 @@ public class FileWrite {
 		try {
 
 			File file = new File(path);
-			file.createNewFile();
 
 			if (overwrite) {
 
+				file.createNewFile();
+				
 				System.out.println("Overwrite option selected");
 				System.out.println("File name is " + file.getName());
 
@@ -27,6 +28,8 @@ public class FileWrite {
 				errestat = new PrintWriter(Rstatfile);
 
 			} else if (!file.exists()) {
+				
+				file.createNewFile();
 
 				System.out.println("Overwrite option not selected");
 				System.out.println("File name is " + file.getName());
