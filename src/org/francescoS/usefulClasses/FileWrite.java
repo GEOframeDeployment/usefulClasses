@@ -1,5 +1,15 @@
 package org.francescoS.usefulClasses;
-
+/**
+ * A class to write your solution on text file
+ * 
+ * @desc	In this code is implemented a robust manner to write computational
+ * 			data on text file. This code verifies if the path of text file is
+ * 			correct and if overwrite the file or not (it takes in input the
+ * 			boolean about overwriting)
+ * 
+ * @author	F. Serafin, 2014
+ * Copyright GPL v. 3 (http://www.gnu.org/licenses/gpl.html)
+ * */
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
