@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package org.francescoS.usefulClasses;
 /**
  * A class to write your solution on text file
@@ -15,11 +18,25 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class FileWrite.
+ */
 public class FileWrite {
 
+	/** The errestat. */
 	static PrintWriter errestat;
+	
+	/** The Rstatfile. */
 	static FileWriter Rstatfile;
 
+	/**
+	 * Open txt file.
+	 *
+	 * @param path the path
+	 * @param overwrite the overwrite
+	 * @throws IOException Signals that an I/O exception has occurred.
+	 */
 	public static void openTxtFile(String path, boolean overwrite)
 			throws IOException {
 
@@ -69,6 +86,12 @@ public class FileWrite {
 
 	}
 
+	/**
+	 * Write double1 column.
+	 *
+	 * @param data the data
+	 * @throws IOException Signals that an I/O exception has occurred.
+	 */
 	public static void writeDouble1Column(double[] data) throws IOException {
 
 		for (int j = 0; j < data.length; j++) {
