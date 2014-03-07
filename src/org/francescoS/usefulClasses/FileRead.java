@@ -14,22 +14,24 @@ public class FileRead {
 
 	/** The row. */
 	int row = 0;
-	
+
 	/** The col. */
 	int col = 0;
-	
+
 	/** The array. */
 	double[] array = null;
-	
+
 	/** The matrix. */
 	double[][] matrix = null;
 
 	/**
 	 * Read double matrix.
-	 *
-	 * @param filePath the file path
+	 * 
+	 * @param filePath
+	 *            the file path
 	 * @return the double[][]
-	 * @throws IOException Signals that an I/O exception has occurred.
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
 	 */
 	public double[][] readDoubleMatrix(String filePath) throws IOException {
 
@@ -42,10 +44,12 @@ public class FileRead {
 
 	/**
 	 * Read double array.
-	 *
-	 * @param filePath the file path
+	 * 
+	 * @param filePath
+	 *            the file path
 	 * @return the double[]
-	 * @throws FileNotFoundException the file not found exception
+	 * @throws FileNotFoundException
+	 *             the file not found exception
 	 */
 	public double[] readDoubleArray(String filePath)
 			throws FileNotFoundException {
@@ -67,9 +71,11 @@ public class FileRead {
 
 	/**
 	 * Read matrix dimension.
-	 *
-	 * @param filePath the file path
-	 * @throws FileNotFoundException the file not found exception
+	 * 
+	 * @param filePath
+	 *            the file path
+	 * @throws FileNotFoundException
+	 *             the file not found exception
 	 */
 	public void readMatrixDimension(String filePath)
 			throws FileNotFoundException {
@@ -107,9 +113,11 @@ public class FileRead {
 
 	/**
 	 * Read matrix.
-	 *
-	 * @param filePath the file path
-	 * @throws FileNotFoundException the file not found exception
+	 * 
+	 * @param filePath
+	 *            the file path
+	 * @throws FileNotFoundException
+	 *             the file not found exception
 	 */
 	public void readMatrix(String filePath) throws FileNotFoundException {
 
@@ -146,9 +154,11 @@ public class FileRead {
 
 	/**
 	 * Read row array.
-	 *
-	 * @param filePath the file path
-	 * @throws FileNotFoundException the file not found exception
+	 * 
+	 * @param filePath
+	 *            the file path
+	 * @throws FileNotFoundException
+	 *             the file not found exception
 	 */
 	public void readRowArray(String filePath) throws FileNotFoundException {
 
@@ -183,9 +193,11 @@ public class FileRead {
 
 	/**
 	 * Read column array.
-	 *
-	 * @param filePath the file path
-	 * @throws FileNotFoundException the file not found exception
+	 * 
+	 * @param filePath
+	 *            the file path
+	 * @throws FileNotFoundException
+	 *             the file not found exception
 	 */
 	public void readColumnArray(String filePath) throws FileNotFoundException {
 
@@ -219,9 +231,11 @@ public class FileRead {
 
 	/**
 	 * The main method.
-	 *
-	 * @param args the arguments
-	 * @throws IOException Signals that an I/O exception has occurred.
+	 * 
+	 * @param args
+	 *            the arguments
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
 	 */
 	public static void main(String[] args) throws IOException {
 
